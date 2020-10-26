@@ -232,5 +232,6 @@
 			</div>
 		</th>
 		<a href="svg-text.php" style="font-size: 30px;">LEARNING TASK 6.1 SVG TEXT HERE</a>
+		<a href="svg-animation.php" style="font-size: 30px;">LEARNING TASK 6.4 SVG ANIMATION HERE</a>
 	</body>
 </html>
