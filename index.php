@@ -231,5 +231,6 @@
 				</svg>
 			</div>
 		</th>
+		<a href="svg-text.php" style="font-size: 30px;">LEARNING TASK 6.1 SVG TEXT HERE</a>
 	</body>
 </html>
