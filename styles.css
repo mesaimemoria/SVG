@@ -1,0 +1,140 @@
+html{
+		  overflow-x: hidden;
+		  margin: 0;
+		}
+		body {
+		  width: 100%;
+		  margin: 0;
+		  background-image: linear-gradient(to right, #00a08f , #124653);
+		}
+		#Layer_1{
+		  float: right;
+		  z-index: 0;
+		}
+		#Capa_1{
+		  z-index: 0;
+		}
+		#svg3225{
+		  position: absolute;
+		}
+		a {
+			font-size: 500%;
+			text-decoration: none;
+			background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+			transition: 1s background-size;
+		}
+
+		a:hover {
+			background-size: 100% .1em;
+		}
+
+		/* Variations */
+		a.left {
+			background-position: left bottom;
+		}
+
+		a.right {
+			background-position: right bottom;
+		}
+		div.nav {
+                        margin-left: 50%;
+                }
+		#icon-navigation {
+                        -webkit-animation-name: nav-arrow;
+                        animation-name: nav-arrow;
+                        -webkit-animation-duration: 4s;
+                        animation-duration: 4s;
+                        -webkit-animation-timing-function: linear;
+                        animation-timing-function: linear;
+                        -webkit-animation-iteration-count: infinite;
+                        animation-iteration-count: infinite;
+                }
+
+                @-webkit-keyframes nav-arrow {
+                        0% {
+                                -webkit-transform: rotate(20deg);
+                                transform: rotate(20deg);
+                        }
+
+                        14% {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                        }
+
+                        28% {
+                                -webkit-transform: rotate(-20deg);
+                                transform: rotate(-20deg);
+                        }
+
+                        42% {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                        }
+
+                        70% {
+                                -webkit-transform: rotate(20deg);
+                                transform: rotate(20deg);
+                        }
+                }
+
+                @keyframes nav-arrow {
+                        0% {
+                                -webkit-transform: rotate(20deg);
+                                transform: rotate(20deg);
+                        }
+
+                        14% {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                        }
+
+                        28% {
+                                -webkit-transform: rotate(-20deg);
+                                transform: rotate(-20deg);
+                        }
+
+                        42% {
+                                -webkit-transform: rotate(0deg);
+                                transform: rotate(0deg);
+                        }
+
+                        70% {
+                                -webkit-transform: rotate(20deg);
+                                transform: rotate(20deg);
+                        }
+                }
+				
+				#icon-stopwatch .st-running {
+				  -webkit-transform-origin: 50% 55%;
+						  transform-origin: 50% 55%;
+				  -webkit-animation: stopWatch 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both infinite;
+						  animation: stopWatch 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both infinite;
+				}
+
+				@-webkit-keyframes stopWatch {
+				  0% {
+					-webkit-transform: rotate(0);
+							transform: rotate(0);
+				  }
+				  100% {
+					-webkit-transform: rotate(360deg);
+							transform: rotate(360deg); 
+				  }
+				}
+
+				@keyframes stopWatch {
+				  0% {
+					-webkit-transform: rotate(0);
+							transform: rotate(0);
+				  }
+				  100% {
+					-webkit-transform: rotate(360deg);
+							transform: rotate(360deg);
+				  }
+				}
+				
+				.menu:hover {
+					fill: #00a08f;
+					opacity: 0.6;
+					transition: 1s;
+				}
