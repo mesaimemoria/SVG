@@ -233,6 +233,7 @@
 		</th>
 		<a href="svg-text.php" style="font-size: 30px;">LEARNING TASK 6.1 SVG TEXT HERE</a>
 		<a href="svg-animation.php" style="font-size: 30px;">LEARNING TASK 6.4 SVG ANIMATION HERE</a>
+		<a href="canvas.php" style="font-size: 30px;">LEARNING TASK 7.1 HTML CANVAS HERE</a>
 		<a href="cle2.php" style="font-size: 30px;">CLE2 HERE</a>
 	</body>
 </html>
